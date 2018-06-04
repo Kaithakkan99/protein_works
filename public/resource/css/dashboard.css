@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body{
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+header h1{
+    padding: 5px 20px;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+.bg-primary {
+    background-color: #718e76!important;
+}
+
+.sidebar-offcanvas {
+    background-color: #828976!important;
+}
+
+.btn-primary {
+    background-color: #337ab7!important;;
+    border-color: #2e6da4!important;;
+}
+
+.form-control {
+    width: 20%!important;;
+}
+
+
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid::after {
+    clear: both;
+}
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid::after {
+    clear: both;
+}
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid {
+    width: 100%;
+}
+.row-fluid {
+    width: 100%;
+}
+.metro-nav {
+    font-family: "MyriadPro-Light";
+    position: relative;
+    z-index: 101;
+}
+
+
+.metro-nav .metro-nav-block {
+    color: white;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-weight: 300;
+    height: 114px;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    margin: 0 0.5% 1% 0;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    width: 19%;
+    z-index: 1;
+    border-radius: 16px;
+}
+
+.metro-nav .nav-block-orange {
+    background: #f37b53 none repeat scroll 0 0;
+}
+
+
+.metro-nav .metro-nav-block a {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    height: 100%;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 5px 10px;
+    position: absolute;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    width: 100%;
+}
+
+
+.metro-nav .metro-nav-block a .info {
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.metro-nav .nav-olive {
+    background: #959801 none repeat scroll 0 0;
+}
+
+.metro-nav .nav-block-yellow {
+    background: #ffb400 none repeat scroll 0 0;
+}
+.metro-nav .nav-block-green {
+    background: #74b749 none repeat scroll 0 0;
+}
+.metro-nav .nav-block-red {
+    background: #de577b none repeat scroll 0 0;
+}
+
+.metro-nav .nav-light-purple {
+    background: #847cc5 none repeat scroll 0 0;
+}
+
+.metro-nav .nav-light-blue {
+    background: #61b9ff none repeat scroll 0 0;
+}
+
+.metro-nav .nav-light-green {
+    background: #00a489 none repeat scroll 0 0;
+}
+
+.metro-nav .nav-light-brown {
+    background: #ab8465 none repeat scroll 0 0;
+}
+
+.metro-nav .nav-block-grey {
+    background: #77808a none repeat scroll 0 0;
+}
+.metro-nav .nav-block-pink {
+    background: #FF69B4 none repeat scroll 0 0;
+}
+.metro-nav .nav-block-old-rose {
+    background: #C4808A none repeat scroll 0 0;
+}
+.metro-nav .nav-block-dark-red {
+    background: #8B0000 none repeat scroll 0 0;
+}
+
+.metro-nav .nav-block-Zanah {
+    background: #B3C6B3 none repeat scroll 0 0;
+}
+
+.metro-nav .metro-nav-block.double {
+    width: 28%;
+}
+.metro-nav .metro-nav-block .info {
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+      display: inline-block;
+    text-decoration: inherit;
+    background-color: inherit;
+}
+
+.metro-nav .metro-nav-block .status, .metro-nav .metro-nav-block .tile-status {
+    background-color: transparent;
+    bottom: -2px;
+    font-size: 14px;
+    left: 6px;
+    min-height: 30px;
+    position: absolute;
+}
+
+.metro-nav .metro-nav-block a i {
+    transition: all 0.5s ease-in-out 0s;
+}
+.metro-nav .metro-nav-block i {
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 20px;
+}
+

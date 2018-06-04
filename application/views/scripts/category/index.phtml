@@ -1,0 +1,23 @@
+<br /><br />
+<div id="view-content">
+<p><a href="<?php echo $this->url(
+    array(
+        'controller' => 'category',
+        'action'     => 'create'
+    ),
+    'default',
+    true) ?>">Create New catogory</a></p>
+    <?php if(is_array($this->categories)) : ?>
+    <div class="metro-nav">
+	<?php foreach ($this->categories as $categorie) : ?>
+        <div class="metro-nav-block nav-block-orange">
+            <a href="<?php echo $categorie->getUrl() ?>" data-original-title="">
+                <i class="icon-user"></i>
+                <div class="status"><?php echo $categorie->getName() ?></div>
+            </a>
+        </div>
+    <?php endforeach ?>
+    </div>
+    <?php endif ?>
+
+</div>

@@ -1,0 +1,11 @@
+<br /><br />
+<div id="view-content">
+
+<?php if (!empty( $this->errorMessage)) :?>
+<div class="alert alert-danger">
+    <?php echo $this->errorMessage?>
+</div>
+<?php endif?>
+
+	<p><?php echo $this->form->setAction($this->url()); ?></p>
+</div>

@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body{
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+header h1{
+    padding: 5px 20px;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+.bg-primary {
+    background-color: #718e76!important;
+}
+
+.sidebar-offcanvas {
+    background-color: #828976!important;
+}

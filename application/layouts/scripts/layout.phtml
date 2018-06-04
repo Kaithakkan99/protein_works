@@ -1,0 +1,49 @@
+<!-- application/layouts/scripts/layout.phtml -->
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping</title>
+    <meta name="description" content="Shopping" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+
+    <?php echo $this->headLink()->appendStylesheet('//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css') ?>
+    <?php echo $this->headLink()->appendStylesheet('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css') ?>
+    <?php echo $this->headLink()->appendStylesheet('/resource/css/dashboard.css') ?>
+  </head>
+  <body >
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary mb-3">
+    <div class="flex-row d-flex">
+        <button type="button" class="navbar-toggler mr-2 " data-toggle="offcanvas" title="Toggle responsive left sidebar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/index" title="Free Bootstrap 4 Admin Template">Shopping</a>
+    </div>
+
+
+</nav>
+<div class="container-fluid" id="main">
+    <div class="row row-offcanvas row-offcanvas-left">
+        <div class="col-md-3 col-lg-2 sidebar-offcanvas bg-light pl-0" id="sidebar" role="navigation">
+            <ul class="nav flex-column sticky-top pl-0 pt-5 mt-3">
+            </ul>
+        </div>
+
+        <div class="col main pt-5 mt-3">
+            <?php echo $this->layout()->content ?>
+        </div>
+    </div>
+
+</div>
+<footer class="container-fluid">
+    <p class="text-right small"></p>
+</footer>
+
+    <!--scripts loaded here-->
+    <?php echo $this->headScript()->appendFile('//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js', 'text/javascript'); ?>
+    <?php echo $this->headScript()->appendFile('//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', 'text/javascript'); ?>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
